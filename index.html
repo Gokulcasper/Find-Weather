@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather Application</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search location...."
+        />
+        <img
+          src="./search.png"
+          width="20"
+          height="20"
+          alt=""
+          class="searchIcon"
+        />
+      </div>
+      <div class="weather loading">
+        <h2 class="city">Weather in Coimbatore</h2>
+        <h1 class="temp">51°C</h1>
+        <div class="flex">
+          <img src="" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity : 60%</div>
+        <div class="wind">wind speed :6.2km/h</div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
