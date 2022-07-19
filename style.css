@@ -87,3 +87,9 @@ h1.temp {
   top: 0;
   left: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    background-size: cover;
+  }
+}
