@@ -45,4 +45,4 @@ document
     }
   });
 
-weather.fetchWeather("Coimbatore");
+weather.fetchWeather("Namakkal");
