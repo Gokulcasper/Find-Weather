@@ -73,7 +73,7 @@ h1.temp {
   margin-left: 8px;
 }
 
-/* .weather.loading {
+.weather.loading {
   visibility: hidden;
   max-height: 20px;
   position: relative;
@@ -86,4 +86,4 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
-} */
+}
